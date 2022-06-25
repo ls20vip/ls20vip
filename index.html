@@ -4,33 +4,450 @@
     <meta charset="UTF-8">
     <title>主页</title>
     <style>
+        #box13 {
+            height: 3px;
+            width: 40px;
+            background-color: #3f9dfd;
+            position: relative;
+            left: 50%;
+            margin: 25px -596px;
+        }
+
+        #box {
+            height: 1500px;
+            width: 1366px;
+            position: relative;
+            left: 50%;
+            margin: 80px -683px;
+            background-color: rgb(253, 253, 253, 0.88);
+            border-radius: 10px;
+        }
+
         .ls {
             color: #3f9dfd;
+        }
+
+        .box1-9 {
+            height: 380px;
+            width: 780px;
+            position: relative;
+            display: none;
+            top: 10px;
+            left: 10px;
+            border-radius: 10px;
+
+        }
+
+        #box1-1 {
+            height: 400px;
+            width: 800px;
+            position: relative;
+            top: 10px;
+            left: 10px;
+            background-color: #fd6900;
+            border-radius: 10px;
+        }
+
+        #box1-2 {
+            height: 1480px;
+            width: 1085px;
+            background-color: #1010da;
+            top: 10px;
+            left: 10px;
+            position: relative;
+            border-radius: 10px;
+
+        }
+
+        .box1-3 {
+            background: url("img6.2/bejta.png");
+        }
+
+        .box1-4 {
+            background: url("img6.2/bejtb.png");
+        }
+
+        .box1-5 {
+            background: url("img6.2/bejtc.png");
+        }
+
+        .box1-6 {
+            background: url("img6.2/bejtd.png");
+        }
+
+        .box1-7 {
+            background: url("img6.2/bejte.png");
+        }
+
+        .box1-8 {
+            background: url("img6.2/bejtf.png");
+        }
+
+        #box1-9 {
+            width: 400px;
+            height: 50px;
+            position: relative;
+            top: -30px;
+            left: 30px;
+        }
+
+        .ann {
+            height: 15px;
+            width: 60px;
+        }
+
+        #box1-13 {
+            background: url(https://ls20vip.oss-cn-chengdu.aliyuncs.com/img/tx1.png) no-repeat;
+            background-size: 48px 48px;
+            position: relative;
+            width: 48px;
+            height: 48px;
+            top: 20px;
+            left: 20px;
+            border-radius: 24px;
+        }
+
+        #box1-14 {
+            width: 100px;
+            position: relative;
+            top: -28px;
+            left: 74px;
+            font-size: 20px;
+        }
+
+        #box1-15 {
+            width: 100px;
+            position: relative;
+            top: -30px;
+            left: 74px;
+            color: #999999;
+            font-size: 13px;
+        }
+
+        #box1-16 {
+            width: 300px;
+            height: 25px;
+            position: relative;
+            top: 0px;
+            left: 50px;
+            font-size: 15px;
+        }
+
+        #box1-17 {
+            width: 300px;
+            height: 25px;
+            position: relative;
+            top: 0px;
+            left: 58px;
+            font-size: 15px;
+        }
+
+        #box1-18 {
+            width: 200px;
+            height: 1px;
+            background-color: #999999;
+            position: relative;
+            top: -34px;
+            left: 25px;
+        }
+
+        #box1-19 {
+            width: 1px;
+            height: 40px;
+            background-color: #999999;
+            position: relative;
+            top: -50px;
+            left: 123px;
+        }
+
+        #box1-20 {
+            width: 200px;
+            height: 20px;
+            position: relative;
+            top: -13px;
+            left: 27px;
+        }
+
+        #box1-21 {
+            height: 28px;
+            width: 100px;
+            position: relative;
+            float: left;
+            top: -15px;
+            left: 20px;
+            border-radius: 14px;
+            border: 1px solid rgba(51, 51, 51, 0.5);
+        }
+
+        #box1-22 {
+            height: 28px;
+            width: 100px;
+            position: relative;
+            float: left;
+            top: -15px;
+            left: 30px;
+            border-radius: 14px;
+            border: 1px solid rgba(51, 51, 51, 0.5);
+            color: #999999;
+        }
+
+        #box1-10 {
+            position: fixed;
+            width: 250px;
+            float: left;
+            left: 50%;
+            font-size: 15px;
+            background-color: rgb(255, 255, 255, 0.93);
+            height: 240px;
+            border-radius: 10px;
+            margin: 10px 422px;
+
+        }
+
+        #box1-23 {
+            position: fixed;
+            width: 250px;
+            float: left;
+            left: 50%;
+            font-size: 15px;
+            background-color: rgb(255, 255, 255, 0.93);
+            height: 375px;
+            border-radius: 10px;
+            margin: 260px 422px;
+        }
+
+        #box1-25 {
+            height: 1px;
+            width: 100%;
+            position: absolute;
+            top: 37px;
+            background-color: rgb(192, 190, 190);
+        }
+
+        #box1-26 {
+            font-size: 18px;
+            position: relative;
+            top: -12px;
+            left: 17px;
+        }
+
+        #box1-27 {
+            background: url(https://ls20vip.oss-cn-chengdu.aliyuncs.com/img/tiangou.png) no-repeat;
+            background-size: 18px 18px;
+            position: relative;
+            width: 18px;
+            height: 18px;
+            top: 10px;
+            left: 12px;
+            border-radius: 24px;
+        }
+
+        #box1-28 {
+            height: 293px;
+            width: 224px;
+            position: relative;
+            top: 8px;
+            left: 16px;
+            font-size: 16px;
+        }
+
+        #box1-29 {
+            background: url(https://ls20vip.oss-cn-chengdu.aliyuncs.com/img/goul.png) no-repeat;
+            background-size: 25px 25px;
+            position: relative;
+            width: 25px;
+            height: 25px;
+            top: 0px;
+            left: 110px;
+
         }
     </style>
 </head>
 <body>
+<link rel="stylesheet" type="text/css" href="https://ls20vip.oss-cn-chengdu.aliyuncs.com/CSS/dhl.css">
+<link rel="stylesheet" type="text/css" href="CSS/zhuye.css">
 <div id="mydiv">
-    <div id="box"></div>
-    <div id="dhl">
-        <link rel="stylesheet" type="text/css" href="https://ls20vip.oss-cn-chengdu.aliyuncs.com/CSS/dhl.css">
-        <link rel="stylesheet" type="text/css" href="https://ls20vip.oss-cn-chengdu.aliyuncs.com/CSS/zhuye.css">
-        <input type="button" class="img" onclick=location.href='https://waa.ink'>
-        <input type="button" class="box10 box1 box11 ls" onclick=location.href='https://waa.ink/index.html' value="首页">
-        <input type="button" class="box6 box1 box9" onclick=location.href='https://waa.ink/gerjj.html' value="个人信息">
-        <input type="button" class="box5 box1 box9" onclick=location.href='https://waa.ink/gercc.html' value="个人橱窗">
-        <input type="button" class="box4 box1 box9" onclick=location.href='https://waa.ink/xajs.html' value="信安介绍">
-        <input type="button" class="box3 box1 box8" onclick=location.href='https://waa.ink/wxhdsw.html' value="我喜欢的事物">
-        <input type="button" class="box1 box2 box8" onclick=location.href='https://waa.ink/wxqddf.html' value="我想去的地方">
-        <input type="button" class="box15 box1 " onclick=location.href='https://waa.ink' value="登录">
-        <input type="button" class="img1" onclick=location.href='https://waa.ink'>
-        <input type="button" id="box16" onclick="history.back();" value="返回">
-        <div id="box7"></div>
-        <div id="box13"></div>
+    <div id="box">
+        <div id="box1-10">
+            <div id="box1-13"></div>
+            <div id="box1-14">waa</div>
+            <div id="box1-15">码龄:1417天</div>
+            <div id="box1-20">我所理解的生活，是忠于自己</div>
+            <div id="box1-17">99+&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;1</div>
+            <div id="box1-16">文章数&emsp;&emsp;&emsp;&emsp;&ensp;粉丝</div>
+            <div id="box1-19"></div>
+            <div id="box1-18"></div>
+            <input type="button" id="box1-21" onclick=location.href='https://waa.ink' value="私信">
+            <input type="button" id="box1-22" onclick=location.href='https://waa.ink' value="已关注">
+        </div>
+        <div id="box1-23">
+            <div id="box1-25">
+            </div>
+            <div id="box1-27"></div>
+            <div id="box1-26">&emsp;舔狗日记</div>
+            <div id="box1-28">
+                &emsp;&emsp;你说你想买口红，今天我去了叔叔的口罩厂做了一天的打包。拿到了两百块钱，加上我这几天省下的钱刚好能给你买一根小金条。即没有给我自己剩下一分钱，但你不用担心，因为厂里包吃包住。对了打包的时候，满脑子都是你，想着你哪天突然就接受我的橄榄枝了呢。而且今天我很棒呢，主管表扬我很能干，其实也有你的功劳啦，是你给了我无穷的力量。今天我比昨天多想你一点，比明天少想你一点。
+            </div>
+            <div id="box1-29"></div>
+        </div>
+        <div id="box1-2">
+            <div id="box1-1">
+                <div class="img-slide box1-9 box1-3"></div>
+                <div class="img-slide box1-9 box1-4"></div>
+                <div class="img-slide box1-9 box1-5"></div>
+                <div class="img-slide box1-9 box1-6"></div>
+                <div class="img-slide box1-9 box1-7"></div>
+                <div class="img-slide box1-9 box1-8"></div>
+
+            </div>
+            <div id="box1-9">
+                <input type="submit" value="" class="ann" onClick="slideShowa()" id="button1"/>
+                <input type="submit" value="" class="ann" onClick="slideShowb()" id="button2"/>
+                <input type="submit" value="" class="ann" onClick="slideShowc()" id="button3"/>
+                <input type="submit" value="" class="ann" onClick="slideShowd()" id="button4"/>
+                <input type="submit" value="" class="ann" onClick="slideShowe()" id="button5"/>
+                <input type="submit" value="" class="ann" onClick="slideShowf()" id="button6"/>
+            </div>
+        </div>
+        <div id="dhl">
+            <input type="button" class="img" onclick=location.href='https://waa.ink'>
+            <input type="button" class="box10 box1 box11 ls" onclick=location.href='https://waa.ink/index.html'
+                   value="首页">
+            <input type="button" class="box6 box1 box9" onclick=location.href='https://waa.ink/gerjj.html' value="个人信息">
+            <input type="button" class="box5 box1 box9" onclick=location.href='https://waa.ink/gercc.html' value="个人橱窗">
+            <input type="button" class="box4 box1 box9" onclick=location.href='https://waa.ink/xajs.html' value="信安介绍">
+            <input type="button" class="box3 box1 box8" onclick=location.href='https://waa.ink/wxhdsw.html'
+                   value="我喜欢的事物">
+            <input type="button" class="box1 box2 box8" onclick=location.href='https://waa.ink/wxqddf.html'
+                   value="我想去的地方">
+            <input type="button" class="box15 box1 " onclick=location.href='https://waa.ink' value="登录">
+            <input type="button" class="img1" onclick=location.href='https://waa.ink'>
+            <input type="button" id="box16" onclick="history.back();" value="返回">
+            <div id="box7"></div>
+            <div id="box13"></div>
+        </div>
     </div>
     <div id="box14">本网站由&ensp;Github&ensp;&amp;&ensp;阿里云&ensp;提供计算服务&ensp;|&ensp;温馨提示：本网站在屏幕分辨率为2560*1600下体验最佳</div>
 </div>
 </body>
+<script type="text/javascript">
+    let index = 0, len;
+    let imgBox = document.getElementsByClassName("img-slide");
+    len = imgBox.length;
+    imgBox[index].style.display = 'block';
+    ann1()
+
+    function slideShowa() {
+        ann1()
+        imgBox[index].style.display = 'none';
+        imgBox[index].style.color = '#fd6900';
+        index = 0
+        imgBox[index].style.display = 'block';
+    }
+
+    function slideShowb() {
+        ann2()
+        imgBox[index].style.display = 'none';
+        index = 1
+        imgBox[index].style.display = 'block';
+    }
+
+    function slideShowc() {
+        ann3()
+        imgBox[index].style.display = 'none';
+        index = 2
+        imgBox[index].style.display = 'block';
+    }
+
+    function slideShowd() {
+        ann4()
+        imgBox[index].style.display = 'none';
+        index = 3
+        imgBox[index].style.display = 'block';
+    }
+
+    function slideShowe() {
+        ann5()
+        imgBox[index].style.display = 'none';
+        index = 4
+        imgBox[index].style.display = 'block';
+    }
+
+    function slideShowf() {
+        ann6()
+        imgBox[index].style.display = 'none';
+        index = 5
+        imgBox[index].style.display = 'block';
+
+    }
+
+    function slideShows() {
+        imgBox[index].style.display = 'none';
+        annabs()
+        index++;
+        if (index >= 6) index = 0;
+        if (index === 0) ann1();
+        if (index === 1) ann2();
+        if (index === 2) ann3();
+        if (index === 3) ann4();
+        if (index === 4) ann5();
+        if (index === 5) ann6();
+        imgBox[index].style.display = 'block';
+    }
+
+    setInterval(slideShows, 5000);
+
+    function ann1() {
+        let but1 = document.getElementById('button1');
+        annabs()
+        but1.style.backgroundColor = '#fd6900';
+    }
+
+    function ann2() {
+        let but2 = document.getElementById('button2');
+        annabs()
+        but2.style.backgroundColor = '#fd6900';
+    }
+
+    function ann3() {
+        let but3 = document.getElementById('button3');
+        annabs()
+        but3.style.backgroundColor = '#fd6900';
+    }
+
+    function ann4() {
+        let but4 = document.getElementById('button4');
+        annabs()
+        but4.style.backgroundColor = '#fd6900';
+    }
+
+    function ann5() {
+        let but5 = document.getElementById('button5');
+        annabs()
+        but5.style.backgroundColor = '#fd6900';
+    }
+
+    function ann6() {
+        let but6 = document.getElementById('button6');
+        annabs()
+        but6.style.backgroundColor = '#fd6900';
+    }
+
+    function annabs() {
+        let but1 = document.getElementById('button1');
+        but1.style.backgroundColor = '#fdfdfd';
+        let but2 = document.getElementById('button2');
+        but2.style.backgroundColor = '#fdfdfd';
+        let but3 = document.getElementById('button3');
+        but3.style.backgroundColor = '#fdfdfd';
+        let but4 = document.getElementById('button4');
+        but4.style.backgroundColor = '#fdfdfd';
+        let but5 = document.getElementById('button5');
+        but5.style.backgroundColor = '#fdfdfd';
+        let but6 = document.getElementById('button6');
+        but6.style.backgroundColor = '#fdfdfd';
+    }
+</script>
 <script type="text/javascript" src="https://ls20vip.oss-cn-chengdu.aliyuncs.com/js/beijing.js"></script>
 <script type="text/javascript" src="https://ls20vip.oss-cn-chengdu.aliyuncs.com/js/beijingpeizhi.js"></script>
 <script type="text/javascript" src="https://ls20vip.oss-cn-chengdu.aliyuncs.com/js/aixin.js"></script>
